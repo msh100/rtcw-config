@@ -1,7 +1,7 @@
 //
 //Brush Scripting
 //Map: mp_sub
-//Last edited by: Adlad (2021-05-04)
+//Last edited by: Tarator (2021-08-18)
 //
 
 game_manager
@@ -105,10 +105,14 @@ game_manager
 		// move the submarine
 		trigger submarine allies_woo
 
-		wait 1500
+        // RTCWPro
+        //wait 1500
 
-		// End the round
-		wm_endround
+        // End the round
+        wm_endround
+        
+        // RTCWPro
+        wait 1500
 	}
 
 	trigger obj_flagred

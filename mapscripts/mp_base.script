@@ -1,7 +1,7 @@
 //
 //Brush Scripting
 //Map: mp_base
-//Last edited by: Brandon
+//Last edited by: Tarator (2021-08-21)
 //
 
 game_manager
@@ -13,9 +13,9 @@ game_manager
 		wm_mapdescription			"The Allies must destroy both the North and South Radar Controls. The Axis must defend them until the 'top secret' message is finished transmitting."
 
 		wm_axis_respawntime		30
-		wm_allied_respawntime	20
+		wm_allied_respawntime		20
 
-		wm_number_of_objectives	2
+		wm_number_of_objectives		2
 
 		wm_set_round_timelimit	10
 
@@ -93,7 +93,8 @@ game_manager
 		// Set the round winner:  0 == AXIS, 1 == ALLIED
 		wm_setwinner 1
 
-		wait 1500
+		//RTCWPro
+		//wait 1500
 
 		// End the round
 		wm_endround
